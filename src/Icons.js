@@ -49,10 +49,7 @@ export const Icon = [
     Icons: <RedoIcon />,
     action: "redo",
   },
-  {
-    Icons: <FormatColorFillIcon />,
-    action: "Highlight",
-  },
+ 
 
   {
     Icons: <FormatIndentDecreaseIcon />,
@@ -62,12 +59,5 @@ export const Icon = [
     Icons: <FormatIndentIncreaseIcon />,
     action: "indent",
   },
-  {
-    Icons: <FormatLineSpacingIcon />,
-    action: "LineHeight",
-  },
-  {
-    Icons: <FormatSizeIcon />,
-    action: "FontSize",
-  },
+ 
 ];
