@@ -1,0 +1,48 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+  h1{
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-left: 1rem;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  border: 5px solid rgb(253, 244, 244);
+  outline: none;
+}
+.textArea {
+  display: flex;
+
+  margin-left: 20rem;
+ 
+  text-align: left;
+  height: 80vh;
+  width: 50vw;
+  outline: none;
+  background-color: #ffffff;
+
+  margin-top: 1rem;
+  box-shadow: 5px 2px 10px #bb8787;
+}
+.download{
+  font-size: 20rem;
+  font-weight: 700;
+  position: fixed;
+  bottom: 20px;
+  right: 22rem;
+  color: blue;
+
+}
